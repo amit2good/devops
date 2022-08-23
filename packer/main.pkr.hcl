@@ -6,12 +6,3 @@ packer {
     }
   }
 }
-
-source "amazon" "Ubuntu_Build" {
-
-}
-
-build {
-  source = ["source.amazon.Ubuntu_Build"]
-
-}
