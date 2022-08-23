@@ -1,8 +1,6 @@
-packer {
-  required_plugins {
-    amazon = {
-      version = ">= 1.1.1"
-      source = "github.com/hashicorp/amazon"
-    }
-  }
+source "amazon-ebs" "ubuntu-image" {
+  access_key = ""
+  secret_key = ""
+  
+
 }
